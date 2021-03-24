@@ -1,1 +1,3 @@
-## coerce each factor to character, catenate, then re-convert to factor
+fbind <- function(a, b) {
+  factor(c(as.character(a), as.character(b)))
+}
